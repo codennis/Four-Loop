@@ -27,6 +27,10 @@
         	android:name=".Activity2"
         ></activity>
         
+        <activity
+           	android:name=".MediaPage"
+        ></activity>
+        
     </application>
 
 </manifest>

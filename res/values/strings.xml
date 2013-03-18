@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Four-Loop</string>
+    <string name="app_name">Four Loop</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="welcome">Welcome to "A2A"!</string>
+    <string name="keyboard_string">Keyboard</string>
+    <string name="media_string">Media</string>
 
 </resources>
