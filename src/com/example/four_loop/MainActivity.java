@@ -5,21 +5,29 @@ import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-	//This is Jenn TESTING!
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        Button simpleButton = (Button) findViewById(R.id.simpleButton);
-        simpleButton.setOnClickListener(new OnClickListener() {
+        //Keyboard button
+        Button launchKeyboard = (Button) findViewById(R.id.keyboard);
+        launchKeyboard.setOnClickListener(new View.OnClickListener() {
         	public void onClick(View v) {
         		Intent intent = new Intent(v.getContext(), Activity2.class);
+        		startActivityForResult(intent, 0);
+        	}
+        });
+        
+        //Media button
+        Button launchMedia = (Button) findViewById(R.id.media);
+        launchMedia.setOnClickListener(new View.OnClickListener() {
+        	public void onClick(View v) {
+        		Intent intent = new Intent(v.getContext(), MediaPage.class);
         		startActivityForResult(intent, 0);
         	}
         });

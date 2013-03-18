@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Activity2">
+    tools:context=".MediaPage">
 
     <TextView
        android:id="@+id/title"
@@ -15,6 +15,6 @@
        android:layout_alignParentTop="true"
        android:layout_centerHorizontal="true"
        android:layout_marginTop="20dp"
-       android:text="@string/keyboard_string" />
+       android:text="@string/media_string" />
 
 </RelativeLayout>
