@@ -4,13 +4,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-//Empty Temp Keyboard Page
-public class Activity2 extends Activity {
-
+//Empty temp media page
+public class MediaPage extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity2);
+        setContentView(R.layout.media_page);
     }
 
     @Override
