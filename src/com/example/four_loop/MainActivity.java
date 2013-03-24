@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         Button launchKeyboard = (Button) findViewById(R.id.keyboard);
         launchKeyboard.setOnClickListener(new View.OnClickListener() {
         	public void onClick(View v) {
-        		Intent intent = new Intent(v.getContext(), Activity2.class);
+        		Intent intent = new Intent(v.getContext(), KeyboardPage.class);
         		startActivityForResult(intent, 0);
         	}
         });
