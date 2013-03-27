@@ -6,5 +6,7 @@
     <string name="welcome">Welcome to "A2A"!</string>
     <string name="keyboard_string">Keyboard</string>
     <string name="media_string">Media</string>
-
+	<string name="title_connecting">connecting</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
 </resources>
